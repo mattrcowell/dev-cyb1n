@@ -83,7 +83,7 @@
   regions[secondary_content] = Secondary
   regions[tertiary_content]  = Tertiary
   regions[footer]            = Footer
-  regions[leaderboard]       = Leaderboard
+  regions[alerts]            = Alerts
   regions[header]            = Header
   regions[menu_bar]          = Menu Bar
   regions[help]              = Help
