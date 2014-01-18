@@ -1,8 +1,8 @@
 
 ;----------// Theme Information
 
-  name        = Cyb1n Subtheme
-  description = Custom subtheme built on top of Adaptive Theme
+  name        = Kwantzu Subtheme
+  description = Custom subtheme built on top of Adaptive Theme for "Knives of Kwantzu"
   core        = 7.x
   base theme  = adaptivetheme
   release     = 7.x-3.x
