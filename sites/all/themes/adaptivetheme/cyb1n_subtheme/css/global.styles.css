@@ -19,6 +19,11 @@
  */
 
 /* =============================================================================
+ *  Fonts
+ * ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu|Ubuntu+Condensed|Open+Sans);
+
+/* =============================================================================
  *   Base
  * ========================================================================== */
 
@@ -36,7 +41,7 @@ html {
 
 
 body {
-  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 87.5%;
 }
 
@@ -44,6 +49,10 @@ body {
 /* =============================================================================
  *   HTML Elements
  * ========================================================================== */
+
+h1, h2, h3 {
+  font-family: Ubuntu, sans-serif;
+}
 
 h1 {}
 
@@ -179,7 +188,7 @@ var {
  */
 #header-wrapper {
   /* Debug styles, is this working */
-  background: rgba(255, 192, 203, 0.5);
+  background: rgba(153, 153, 153, 0.5);
 }
 #header-wrapper .container {}
 
@@ -224,7 +233,7 @@ var {
  */
 #footer-wrapper {
   /* Debug styles, is this working? */
-  background: rgba(255, 192, 203, 0.5);
+  background: rgba(153, 153, 153, 0.5);
 }
 #footer-wrapper .container {}
 
@@ -242,11 +251,12 @@ var {
  * Logo
  */
 #logo {
+  float: left; /* +20141701-matt */
   padding: 10px 0;
 }
 
 #logo img {
-  vertical-align: bottom;
+  vertical-align: top; /* =20141701-bottom>top-matt */
 }
 
 /*
